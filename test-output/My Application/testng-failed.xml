@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Application]">
+  <parameter name="uname" value="user1"/>
+  <parameter name="pwd" value="pwd1"/>
+  <test name="Smoke test(failed)">
+    <classes>
+      <class name="p1.JenkinsDemo">
+        <methods>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- p1.JenkinsDemo -->
+    </classes>
+  </test> <!-- Smoke test(failed) -->
+</suite> <!-- Failed suite [My Application] -->
